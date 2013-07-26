@@ -10,8 +10,8 @@ var getToolInfo = function (callBack){
   callBack(reportObj);
 }
 
-var runTool = function(scanID, callBack){
-  console.log("run tool");
+var runTool = function(scanID, toolRunInfo, callBack){
+  console.log("run tool" + JSON.stringify(toolRunInfo));
   callBack("ok");
 }
 
