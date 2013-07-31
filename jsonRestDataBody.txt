@@ -1,0 +1,14 @@
+{
+"attack":
+{"value":"sqli"},
+"URL" :                                          
+  {"value" : "http://webscantest.com/datastore/search_get_by_id.php?id=3" },
+ "method":
+ {"value": "GET"},
+ "body":
+ {"value": " "},
+ "content-type":
+ {"value": "application/json"}, 
+ "host":
+ {"value": "test"}
+}
